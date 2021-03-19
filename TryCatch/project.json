@@ -1,10 +1,8 @@
 {
-  "name": "TestforLib",
-  "description": "Process Created for testing library",
+  "name": "TryCatch",
+  "description": "Exception handling",
   "main": "Main.xaml",
   "dependencies": {
-    "LoginAcme": "[1.0.7]",
-    "UiPath.Credentials.Activities": "[1.0.7495.12930]",
     "UiPath.Excel.Activities": "[2.10.2-preview]",
     "UiPath.Mail.Activities": "[1.10.2-preview]",
     "UiPath.System.Activities": "[21.2.1-preview]",
@@ -45,7 +43,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "6fcac4b4-2a5f-42b2-a7cf-4cc36334dcaf",
+      "uniqueId": "1a1f4aa5-b56a-4061-9027-b9eba4289b17",
       "input": [],
       "output": []
     }

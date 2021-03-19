@@ -48,18 +48,6 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
-      "CredentialManagement/1.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "CredentialManagement"
-        ],
-        "compile": {
-          "lib/net35/_._": {}
-        },
-        "runtime": {
-          "lib/net35/CredentialManagement.dll": {}
-        }
-      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -168,43 +156,6 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
-        }
-      },
-      "LogAcme/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "UiPath.Excel.Activities": "2.10.2-preview",
-          "UiPath.Mail.Activities": "1.10.2-preview",
-          "UiPath.System.Activities": "21.2.1-preview",
-          "UiPath.UIAutomation.Activities": "21.2.0-preview"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/LoginAcme.dll": {},
-          "lib/net45/LoginAcme_Expressions_23903510.dll": {},
-          "lib/net45/LoginAcme_Expressions_37788865.dll": {},
-          "lib/net45/LoginAcme_Expressions_51415138.dll": {}
-        }
-      },
-      "LoginAcme/1.0.7": {
-        "type": "package",
-        "dependencies": {
-          "LogAcme": "1.0.1",
-          "UiPath.Excel.Activities": "2.10.2-preview",
-          "UiPath.Mail.Activities": "1.10.2-preview",
-          "UiPath.System.Activities": "21.2.1-preview",
-          "UiPath.UIAutomation.Activities": "21.2.0-preview"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/LoginAcme.dll": {},
-          "lib/net45/LoginAcme_Expressions_25483595.dll": {},
-          "lib/net45/LoginAcme_Expressions_39396160.dll": {},
-          "lib/net45/LoginAcme_Expressions_42652701.dll": {}
         }
       },
       "MailKit/2.10.0": {
@@ -872,18 +823,6 @@
         },
         "build": {
           "build/_._": {}
-        }
-      },
-      "UiPath.Credentials.Activities/1.0.7495.12930": {
-        "type": "package",
-        "dependencies": {
-          "CredentialManagement": "1.0.2"
-        },
-        "compile": {
-          "lib/net452/_._": {}
-        },
-        "runtime": {
-          "lib/net452/UiPath.Credentials.Activities.dll": {}
         }
       },
       "UiPath.Excel.Activities/2.10.2-preview": {
@@ -1747,18 +1686,6 @@
           "lib/net40/ClosedXML.dll": {}
         }
       },
-      "CredentialManagement/1.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "CredentialManagement"
-        ],
-        "compile": {
-          "lib/net35/_._": {}
-        },
-        "runtime": {
-          "lib/net35/CredentialManagement.dll": {}
-        }
-      },
       "CsvHelper/16.0.0": {
         "type": "package",
         "dependencies": {
@@ -1867,43 +1794,6 @@
         },
         "runtime": {
           "lib/net45/Google.Apis.PeopleService.v1.dll": {}
-        }
-      },
-      "LogAcme/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "UiPath.Excel.Activities": "2.10.2-preview",
-          "UiPath.Mail.Activities": "1.10.2-preview",
-          "UiPath.System.Activities": "21.2.1-preview",
-          "UiPath.UIAutomation.Activities": "21.2.0-preview"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/LoginAcme.dll": {},
-          "lib/net45/LoginAcme_Expressions_23903510.dll": {},
-          "lib/net45/LoginAcme_Expressions_37788865.dll": {},
-          "lib/net45/LoginAcme_Expressions_51415138.dll": {}
-        }
-      },
-      "LoginAcme/1.0.7": {
-        "type": "package",
-        "dependencies": {
-          "LogAcme": "1.0.1",
-          "UiPath.Excel.Activities": "2.10.2-preview",
-          "UiPath.Mail.Activities": "1.10.2-preview",
-          "UiPath.System.Activities": "21.2.1-preview",
-          "UiPath.UIAutomation.Activities": "21.2.0-preview"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/LoginAcme.dll": {},
-          "lib/net45/LoginAcme_Expressions_25483595.dll": {},
-          "lib/net45/LoginAcme_Expressions_39396160.dll": {},
-          "lib/net45/LoginAcme_Expressions_42652701.dll": {}
         }
       },
       "MailKit/2.10.0": {
@@ -2571,18 +2461,6 @@
         },
         "build": {
           "build/_._": {}
-        }
-      },
-      "UiPath.Credentials.Activities/1.0.7495.12930": {
-        "type": "package",
-        "dependencies": {
-          "CredentialManagement": "1.0.2"
-        },
-        "compile": {
-          "lib/net452/_._": {}
-        },
-        "runtime": {
-          "lib/net452/UiPath.Credentials.Activities.dll": {}
         }
       },
       "UiPath.Excel.Activities/2.10.2-preview": {
@@ -3457,17 +3335,6 @@
         "lib/net40/ClosedXML.xml"
       ]
     },
-    "CredentialManagement/1.0.2": {
-      "sha512": "VkP04/jFXaxT3TkcRhzETYtOrznQxRmQ2J1XJdbXz47Bir7hIzPR7mFZk4GJQ4An4gozW+vonpf+iqTHomAkQw==",
-      "type": "package",
-      "path": "credentialmanagement/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        "credentialmanagement.1.0.2.nupkg.sha512",
-        "credentialmanagement.nuspec",
-        "lib/net35/CredentialManagement.dll"
-      ]
-    },
     "CsvHelper/16.0.0": {
       "sha512": "ZHuVi+c8T/3ksqqCvY6nOWlJvOK+W+0Hnnlucg7lIZA6iSGQ162+998gwXxoBfSaDUp0/cDlrTMq2wnRohErOQ==",
       "type": "package",
@@ -3648,55 +3515,6 @@
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.pdb",
         "lib/netstandard2.0/Google.Apis.PeopleService.v1.xml"
-      ]
-    },
-    "LogAcme/1.0.1": {
-      "sha512": "IgEqQz8cV0pXInLm33zSnMiXBYxs/iZkPwYZh9YR5xRmDo395EVA3EBHCMKt5yeJC/h0DW+U+MeIeFNDaK+lzQ==",
-      "type": "package",
-      "path": "logacme/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net45/.settings/Release/settings-1a5b880a.json",
-        "lib/net45/.settings/Release/settings-5190454b.json",
-        "lib/net45/.settings/Release/settings-590bb27b.json",
-        "lib/net45/.settings/Release/settings-9e9290da.json",
-        "lib/net45/.settings/Release/settings-a1b2dac1.json",
-        "lib/net45/.settings/Release/settings-afad0842.json",
-        "lib/net45/.tmh/config.json",
-        "lib/net45/LoginAcme.dll",
-        "lib/net45/LoginAcme_Expressions_23903510.dll",
-        "lib/net45/LoginAcme_Expressions_37788865.dll",
-        "lib/net45/LoginAcme_Expressions_51415138.dll",
-        "lib/net45/project.json",
-        "logacme.1.0.1.nupkg.sha512",
-        "logacme.nuspec"
-      ]
-    },
-    "LoginAcme/1.0.7": {
-      "sha512": "TU+kpdK9J4GQYEEvlpSHU5/PBD8dHtxut0Tk6Kx4HxQ4blGb2lOQEaMRBIA4JWM+aySJLHAAKK+Mfi1N73hJlg==",
-      "type": "package",
-      "path": "loginacme/1.0.7",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net45/.settings/Release/settings-1a5b880a.json",
-        "lib/net45/.settings/Release/settings-5190454b.json",
-        "lib/net45/.settings/Release/settings-590bb27b.json",
-        "lib/net45/.settings/Release/settings-9e9290da.json",
-        "lib/net45/.settings/Release/settings-a1b2dac1.json",
-        "lib/net45/.settings/Release/settings-afad0842.json",
-        "lib/net45/.tmh/config.json",
-        "lib/net45/LogAcme.1.0.1.nupkg",
-        "lib/net45/LoginAcme.1.0.3.nupkg",
-        "lib/net45/LoginAcme.1.0.4.nupkg",
-        "lib/net45/LoginAcme.1.0.5.nupkg",
-        "lib/net45/LoginAcme.1.0.6.nupkg",
-        "lib/net45/LoginAcme.dll",
-        "lib/net45/LoginAcme_Expressions_25483595.dll",
-        "lib/net45/LoginAcme_Expressions_39396160.dll",
-        "lib/net45/LoginAcme_Expressions_42652701.dll",
-        "lib/net45/project.json",
-        "loginacme.1.0.7.nupkg.sha512",
-        "loginacme.nuspec"
       ]
     },
     "MailKit/2.10.0": {
@@ -4941,18 +4759,6 @@
         "uipath.nuspec"
       ]
     },
-    "UiPath.Credentials.Activities/1.0.7495.12930": {
-      "sha512": "3ZhLEW93UWkVpZi9VRgBJsPx/KS/C6gonq63YouzrrXD96hYTlBWJ87OVmT2A+t8LXmbCvQ/rqls39OawSUzvw==",
-      "type": "package",
-      "path": "uipath.credentials.activities/1.0.7495.12930",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/UiPath.Credentials.Activities.dll",
-        "uipath.credentials.activities.1.0.7495.12930.nupkg.sha512",
-        "uipath.credentials.activities.nuspec"
-      ]
-    },
     "UiPath.Excel.Activities/2.10.2-preview": {
       "sha512": "GXo+yVCylhXFbKkELufyLPS0Ja/Ctn6N2VrYG2ctBHVaDs4Jr6ivUqlqwW+LSrqJnbpp5UJYU85TIZPjoAKpAQ==",
       "type": "package",
@@ -5499,8 +5305,6 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "LoginAcme >= 1.0.7 <= 1.0.7",
-      "UiPath.Credentials.Activities >= 1.0.7495.12930 <= 1.0.7495.12930",
       "UiPath.Excel.Activities >= 2.10.2-preview <= 2.10.2-preview",
       "UiPath.Mail.Activities >= 1.10.2-preview <= 1.10.2-preview",
       "UiPath.System.Activities >= 21.2.1-preview <= 21.2.1-preview",
@@ -5512,25 +5316,15 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "TestforLib",
-      "projectName": "TestforLib",
-      "projectPath": "G:\\OneDrive - Sky University\\Documents\\UiPath\\TestforLib\\.local",
+      "projectUniqueName": "GlobalExceptionHandler",
+      "projectName": "GlobalExceptionHandler",
+      "projectPath": "G:\\OneDrive - Sky University\\Documents\\UiPath\\GlobalExceptionHandler\\.local",
       "packagesPath": "C:\\Users\\omkar\\.nuget\\packages\\",
-      "outputPath": "G:\\OneDrive - Sky University\\Documents\\UiPath\\TestforLib\\.local"
+      "outputPath": "G:\\OneDrive - Sky University\\Documents\\UiPath\\GlobalExceptionHandler\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
-          "LoginAcme": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.7, 1.0.7]"
-          },
-          "UiPath.Credentials.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.7495.12930, 1.0.7495.12930]"
-          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
